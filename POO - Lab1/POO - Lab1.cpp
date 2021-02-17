@@ -10,7 +10,8 @@ int main()
     unsigned sum = 0, number;
     FILE* pFile;
     char str[100];
-    pFile = fopen("in.txt", "r");
+
+    pFile = fopen("in.txt.txt" , "r");
     if (pFile == NULL)
     {
         std::cout << "Nu s-a putut deschide fisierul";
